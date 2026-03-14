@@ -1,0 +1,218 @@
+/* =========================================
+   (01) INDEX/HOME PAGE - LEGACY OF VALOR
+   ========================================= */
+
+/* --- NAVIGATION --- */
+.navbar {
+    background-color: var(--white);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--navy);
+    letter-spacing: 1px;
+}
+
+.nav-links a {
+    color: var(--text-main);
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.nav-links a:hover {
+    color: var(--navy);
+}
+
+.nav-links .btn-nav {
+    background-color: var(--red);
+    color: var(--white);
+    padding: 10px 20px;
+    margin-left: 30px;
+}
+
+.nav-links .btn-nav:hover {
+    background-color: var(--red-hover);
+}
+
+/* --- HERO SECTION --- */
+.hero {
+    background-color: var(--navy);
+    /* Future: Add a background image here */
+    color: var(--white);
+    padding: 120px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.highlight-gold {
+    color: var(--gold);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+    color: #cbd5e1;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* --- ABOUT SECTION --- */
+.about-section {
+    padding: 80px 20px;
+    background-color: var(--white);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.about-section h2 {
+    color: var(--navy);
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.divider {
+    width: 80px;
+    height: 4px;
+    background-color: var(--red);
+    margin: 20px auto;
+}
+
+.about-text {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+/* --- SERVICES/PILLARS SECTION --- */
+.services-section {
+    padding: 80px 20px;
+    background-color: var(--bg-light);
+}
+
+.services-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.pillar-card {
+    background-color: var(--white);
+    padding: 40px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    width: 30%;
+    min-width: 300px;
+}
+
+.pillar-card h3 {
+    color: var(--navy);
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.border-red { border-top: 5px solid var(--red); }
+.border-gold { border-top: 5px solid var(--gold); }
+.border-navy { border-top: 5px solid var(--navy); }
+
+/* --- FOOTER & CONTACT --- */
+.footer {
+    background-color: var(--navy-light);
+    color: var(--white);
+    padding: 80px 20px 20px 20px;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+.footer-info h3, .footer-form h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--white);
+}
+
+.tagline {
+    color: var(--gold);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer-info p {
+    color: #cbd5e1;
+    margin-bottom: 10px;
+}
+
+/* Form Styles */
+.footer-form {
+    flex-grow: 1;
+    max-width: 500px;
+}
+
+.footer-form input, .footer-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f5f9;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn-submit {
+    background-color: var(--red);
+    color: var(--white);
+    width: 100%;
+}
+
+.btn-submit:hover {
+    background-color: var(--red-hover);
+}
+
+/* Bottom Backlink */
+.footer-bottom {
+    border-top: 1px solid #334155;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #94a3b8;
+}
+
+.backlink a {
+    color: var(--gold);
+    font-weight: 600;
+}
+
+.backlink a:hover {
+    color: var(--gold-hover);
+}
