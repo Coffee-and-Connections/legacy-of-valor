@@ -1,0 +1,81 @@
+/* =========================================
+   (00) BASE STYLES - LEGACY OF VALOR
+   ========================================= */
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+
+:root {
+    /* Brand Colors */
+    --navy: #0f172a;
+    --navy-light: #1e293b;
+    --gold: #eab308;
+    --gold-hover: #facc15;
+    --red: #b91c1c;
+    --red-hover: #991b1b;
+    
+    /* Neutrals */
+    --bg-light: #f8fafc;
+    --text-main: #334155;
+    --text-dark: #0f172a;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-main);
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* Global Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Global Buttons */
+.btn-primary, .btn-secondary, .btn-nav, .btn-submit {
+    display: inline-block;
+    padding: 12px 28px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary {
+    background-color: var(--gold);
+    color: var(--navy);
+}
+
+.btn-primary:hover {
+    background-color: var(--gold-hover);
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--white);
+    border: 2px solid var(--white);
+}
+
+.btn-secondary:hover {
+    background-color: var(--white);
+    color: var(--navy);
+    transform: translateY(-2px);
+}
